@@ -15,6 +15,7 @@ spec = APISpec(
     plugins=[FlaskPlugin(), MarshmallowPlugin()],
 )
 
+
 @app.route("/version")
 def get_info():
     """
